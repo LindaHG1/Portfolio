@@ -1,0 +1,21 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/footer.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Tilt+Neon&display=swap');
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: #eee8ee;
+}
+
+h2{
+    font-size: 2rem;
+    color: #cb9897;
+}
+
+/* #F8E6E6; */
