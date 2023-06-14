@@ -8,6 +8,7 @@ import ContactForm from './Components/Contact';
 import Skills from './Components/Skills';
 import Works from './Components/Works';
 import Typewriter from './Components/Intro';
+import Contact from './Components/Contact';
 
 
 
@@ -26,14 +27,16 @@ function App() {
           id="home"
         >
           <div className="typewriter-container">
-            <h1 className="typewriter-text">Portfolio in progres..</h1>
+            <h1 className='Hi'>Hi, my name is</h1>
+            <h1 className='name-intro'>Linda Haeli</h1>
+            <h1 className="typewriter-text">and i'm fullstack developer in progress..</h1>
           </div>
         </motion.div>
       </>
       <AboutUs />
       <Skills />
       <Works />
-      <ContactForm />
+      <Contact />
       <Footer />
     </div>
   );

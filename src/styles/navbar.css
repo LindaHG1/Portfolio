@@ -12,20 +12,20 @@
     z-index: 1;
 }
 .imglinda{
-    width: 190px;
-    margin-left: -60px !important;
-    margin-top: 10px !important;
+    width: 120px;
+    margin-left: -40px;
+    margin-top: 10px;
     
 }
 .nav__container{
-    height: 50px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #cb9897;
-    font-size: 16px;
     color: #ffe6ef;
-    padding: 2em 3em;
+    padding:2em;
+    
 }
 
 .header__bg{
@@ -35,7 +35,7 @@
 
 .nav__container > .nav__items > .nav__links{
     color: #ffe6ef;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
     margin: 15px;
@@ -71,8 +71,7 @@
 @media (max-width: 700px) {
 
     .imglinda{
-        width: 60%;
-        margin: -4%;
+        width: 50%;
     }
 
     .nav__container > .nav__items{
@@ -149,5 +148,3 @@
         transform: rotate(-45deg) translate(26px, 26px);
     }
 }
-
-/* #b88397 color mas rosado*/

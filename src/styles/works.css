@@ -15,15 +15,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: auto;
+    height: 400px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
-    background-color: #E9BDBE;
+    background-color: #e9bdbe7c;
 
 }
 
 .title-works{
     padding:30px;
+    text-align: center;
 }
 
 
@@ -38,21 +39,22 @@
     object-fit: cover;
     border-radius: 20px 20px 0 0;
     position: relative;
-    filter: blur(1.2px);
+    filter: grayscale(100%);
     transition: filter 0.3s ease-in-out;
 
 }
 
 .card:hover .card-image {
-    filter: none;
+    
+    filter: grayscale(0%);
 }
 
 .card-content {
-    padding: 16px;
+    padding: 6px;
 }
 
 .card-content h3 {
-    margin-top: 0;
+    text-align: center;
 }
 
 .card-link {
@@ -71,6 +73,10 @@
 @media screen and (max-width: 768px) {
     .card {
         width: calc(50% - 20px);
+    }
+    .card-container {
+        
+        margin: 40px 40px;
     }
 }
 

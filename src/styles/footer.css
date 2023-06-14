@@ -1,17 +1,13 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
 
 footer.footer {
     display: flex;
     background-color: #cb9897;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     color: #ffe6ef;
-    padding: 2em 3em;
-    font-family: 'Nunito', sans-serif;
+    padding: 1em;
     font-size: 1.2rem;
+
 }
 
 .footer-content{

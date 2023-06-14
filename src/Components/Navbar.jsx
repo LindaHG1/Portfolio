@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "../styles/navbar.css";
 import lind from "../images/Logo3.jpg"
+import Cv from "../assets/Cv_Linda.pdf"
 
 // import cv from '../assets/CV.pdf'
 
@@ -75,7 +76,7 @@ export default function Navbar() {
                         >
                             Contact
                         </Link>
-                        {/* <a href={cv} target="_blank" className="nav__links">Resume</a> */}
+                        <a href={Cv} target="_blank" className="nav__links">Cv</a>
                     </div>
 
                     <div
