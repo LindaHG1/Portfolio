@@ -4,7 +4,6 @@ import "../styles/navbar.css";
 import lind from "../images/Logo3.jpg"
 import Cv from "../assets/Cv_Linda.pdf"
 
-// import cv from '../assets/CV.pdf'
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
